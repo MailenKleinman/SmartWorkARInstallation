@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>SmartWorkAR®</title>
+    <title>SmartWorkAR®</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -28,75 +28,60 @@
 <!--===============================================================================================-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
-
 </head>
-<body >
-	
-	<div class="limiter">
-		<div>
-			<div class="backgroundcolor animated fadeIn" >
-				<a href="page2.html">
-					<i class="fa fa-arrow-left fa-2x" style="margin-top: 1em;margin-left: 1em;"></i>
-				</a>
-				<div class="btn-group">
-					<button type="button" class="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: rgb(32, 156, 193);margin-bottom: 8px;margin-left: 10px;font-size: 20px;">
-					  INDICE
-					</button>
-					<div class="dropdown-menu">
-					  <a class="dropdown-item" href="page1.html">Paso 1: Descargar app</a>
-					  <a class="dropdown-item" href="page2.html">Paso 2: Instalar app</a>
-					  <a class="dropdown-item" href="page3.html">Paso 3: Ingresar a web</a>
-					  <a class="dropdown-item" href="page4.html">Paso 4: Elegir menú</a>
-					  <a class="dropdown-item" href="page5.html">Paso 5: Generar QR</a>
-					  <a class="dropdown-item" href="page6.html">Paso 6: Leer QR</a>
-					  <a class="dropdown-item" href="page7.html">Paso 7: Descargar data</a>
-					  <a class="dropdown-item" href="page8.html">Paso 8: Ejecutar app</a>
-					  <a class="dropdown-item" href="page9.html">Paso 9: Finalizar</a>
-					  <div class="dropdown-divider"></div>
-					  <a class="dropdown-item" href="index.html">Inicio</a>
+<body class="backgroundcolor">
+    
+    <div>
+		<div class="row">
+			<div class="col" style="margin:0.5%">
+				<div class="dropdown show">
+					<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: bold;">
+						INDICE
+					</a>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="page1.html">Paso 1: Descargar app</a>
+						<a class="dropdown-item" href="page2.html">Paso 2: Instalar app</a>
+						<a class="dropdown-item" href="page3.html">Paso 3: Ingresar a web</a>
+						<a class="dropdown-item" href="page4.html">Paso 4: Elegir menú</a>
+						<a class="dropdown-item" href="page5.html">Paso 5: Generar QR</a>
+						<a class="dropdown-item" href="page6.html">Paso 6: Leer QR</a>
+						<a class="dropdown-item" href="page7.html">Paso 7: Descargar data</a>
+						<a class="dropdown-item" href="page8.html">Paso 8: Ejecutar app</a>
+						<a class="dropdown-item" href="page9.html">Paso 9: Finalizar</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="index.html">Inicio</a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="container-login100" style="padding-right: 28%;">
-			
-			<div class="wrap-login100 ">
-			
-				<form class="login100-form validate-form content animated fadeInLeft" style="padding-top: 15px;">
-					
-					
-					<div class=" p-t-30 p-b-12">	
-						<p style="font-size: large;text-align: center;font-weight: bold;">
+		<div class="row animated fadeInDown">
+			<div class="d-flex justify-content-center">
+				<div class="col-7">
+					<div>	
+						<h3 class="text-center">
 							PASO 3
-						</p>
-						<p style="font-size: large;text-align: center;">
-							Ingresar al <a href="http://54.210.3.127:8888/ui/#/" style="color: rgb(32, 156, 193);font-size: 18px;text-decoration: underline;">website</a> con usuario y contraseña
-						</p>
+						</h3>
+						<p class="text-center">
+							Ingresar al website con usuario y contraseña
+						</p>	
 						
 					</div>
 
-					<img src="images/page3.jpg" class="rounded mx-auto d-block fluid" alt="..." style="margin-top: 20px;width: 100%;">
-
-					<div class="container-login100-form-btn">
-						<button class="login100-form-btn montserrat" style="background-color:rgb(32, 156, 193); margin-top: 2em; margin-left: 20em; margin-right: 20em; margin-bottom: 0em;" >
-							<a style="color: white;" href="page4.html">SIGUIENTE</a>
-						</button>
+					<div class="d-flex justify-content-center">
+						<img src="images/page3.jpg" class="img-fluid" alt="Responsive image" style="width: 70%;padding:4%">
 					</div>
-					
-					
-				</form>
+
+					<div class="d-flex justify-content-center" >
+						<a href="page2.html" class="btn zoom" style="background-color: rgb(106, 179, 201);color:white;margin:1%">ANTERIOR</a>
+						<a href="page4.html" class="btn zoom" style="background-color: rgb(32, 156, 193);color:white;margin:1%">SIGUIENTE</a>
+					</div>	
+				</div>
 			</div>
-		</div>
-        
-		
-	</div>
+		</div>	
+    </div>
 
-	
-
-	
-	
 <!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
 	<script src="vendor/animsition/js/animsition.min.js"></script>
 <!--===============================================================================================-->
