@@ -276,7 +276,7 @@ iframe {
   width: 560px;
   min-height: 100vh;
   display: block;
-  background-color: #f7f7f7;
+  background-color: #f7f7f7ec;
   padding: 173px 55px 55px 55px;
 }
 
@@ -768,7 +768,7 @@ a.control_prev:hover, a.control_next:hover {
   -webkit-transition: all 0.2s ease;
 }
 
-a.control_prev {
+a.control_prev {  
   border-radius: 0 2px 2px 0;
 }
 
@@ -1014,6 +1014,6 @@ input:checked + section.boxacordion .box-title:before {
 	color: #ffffff;
   }
   .btn:hover {
-background-color:  rgb(103, 183, 207);
-color:  rgb(7, 115, 148);
+background-color:   rgb(106, 179, 201);
+color:  rgb(9, 100, 128);
 }
